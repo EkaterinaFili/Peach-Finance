@@ -3,5 +3,15 @@
     "viewportHeight": 1080,
     "requestTimeout": 10000,
     "responseTimeout": 10000,
-    "defaultCommandTimeout": 10000
+    "defaultCommandTimeout": 10000,
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reporter": "cypress-mochawesome-reporter",
+        "reporterOptions": {
+          "reportDir": "cypress/report",
+          "charts": true,
+          "reportPageTitle": "Peach Finance Report",
+          "embeddedScreenshots": true
+        }
+      }
 }
